@@ -243,7 +243,7 @@ QLabel:disabled {
 }
 
 QToolButton {
-    color: #000000;
+    color: #ffffff;
 }
 QToolButton:disabled {
     color: #eeeeee;
@@ -284,7 +284,7 @@ QDialog QToolButton:pressed {
 }
 QPushButton:default {
     border: 1px solid #575d65;
-    color: #000;
+    color: #fff;
     font: bold;
     background-color: #333333/*qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #5c5c5c, stop:1 #515151); now this actually changes the color of buttons in preferences*/;
 }
