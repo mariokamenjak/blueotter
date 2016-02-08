@@ -1,6 +1,6 @@
 * {
     border-color: #2b2b2b;
-    font-size: 13px;
+    font-size: 15px;
     alternate-background-color: #90C3D4;
 }
 
@@ -44,7 +44,7 @@ QQuickWidget,
 QMdiArea {
     color: #000000;/* possibly the text inside some menus*/
     background: #90C3D4;
-    font-size: 13px;
+    font-size: 15px;
     border-color: #2b2b2b;
     selection-background-color: #ffffff;
     selection-color: #000000;
@@ -58,7 +58,7 @@ QAbstractItemView,
 QTreeView * {
     background: #90C3D4;
     background-color: #90C3D4;/*changes color in tree views*/
-    font-size: 13px;
+    font-size: 15px;
     selection-background-color: #ffffff;/*selection in tree views*/
     selection-color: #000000;
     alternate-background-color: #285577;
@@ -164,7 +164,7 @@ QDialog, QDialogButtonBox {
 QTabBar::tab {
     border: 1px solid #2b2b2b;
     border-radius: 0;
-    font-size: 13px;
+    font-size: 15px;
     color: #000;
     padding: 0 12px;
     background-color: #90C3D4;/*changes the background color of tabs*/
@@ -196,7 +196,7 @@ QDialog QTabBar::tab:selected {
     border: 1px solid #666;
     border-bottom: 0;
     border-radius: 0;
-    font-size: 13px;
+    font-size: 15px;
     color: #000000;
     height: 21px;
     padding: 1px 12px 3px;
@@ -208,7 +208,7 @@ QDialog QTabBar::tab:!selected {
     border: 1px solid #292b2d;
     border-bottom: 0;
     border-radius: 0;
-    font-size: 13px;
+    font-size: 15px;
     color: #000000;
     height: 24px;
     padding: 0 12px 1px;
@@ -255,7 +255,7 @@ QDialog QToolButton:hover {
     border-radius: 2px;
     text-align: center;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     color: #000000;
     border: 1px solid #5e5f60;
     background-color: #5aa5bf /*qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #525759, stop:1 #44494b); changes the button color*/
@@ -328,7 +328,7 @@ QGroupBox {
 }
 QGroupBox::title {
     color: #000000;
-    font-size: 14px;
+    font-size: 16px;
     position: absolute;
     top: -9px;
     left: 7px;
@@ -740,7 +740,7 @@ QToolBar {
     border: none;
     color: #000000;
     background: #90C3D4;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 QStatusBar {
@@ -754,7 +754,7 @@ QStatusBar QLineEdit, QStatusBar QLineEdit:focus {
     border: 1px solid #e5e5e5;
     border-radius: 2px;
     color: #000000;
-    font-size: 11px;
+    font-size: 13px;
     padding: 0;
     selection-background-color: 285577;
     selection-color: #ffffff;
